@@ -1,0 +1,295 @@
+@media (min-width:1000px) {
+    .fourCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .infoCards {
+        width: 1110px;
+        height: 530px;
+        position: relative;
+    }
+
+    .infoCard {
+        width: 350px;
+        height: 250px;
+        position: relative;
+        background-color: white;
+        box-shadow: rgba(207, 229, 255, 0.149) 0px 15px 10px -3px, #89a1bc3d 0px 4px 6px -2px;
+        border-radius: 8px;
+        padding: 32px;
+    }
+
+    .topMiddle {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+    }
+
+    .bottomMiddle {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .leftMiddle {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .rightMiddle {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+
+
+    .infoCardTopRectangle {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 350px;
+        height: 4px;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .blueRectangle {
+        background: #377FD2;
+    }
+
+    .redRectangle {
+        background-color: #FF637B;
+    }
+
+    .greenRectangle {
+        background-color: #00C8C8;
+    }
+
+    .orangeRectangle {
+        background-color: #FCAE4A;
+    }
+
+    .infoCardTitle {
+        font-size: 20px;
+        color: #4D4F62;
+        margin-bottom: 6px;
+    }
+
+    .infoCardDesc {
+        font-size: 13px;
+        color: #4D4F62;
+        font-weight: 200;
+    }
+
+    .infoCardIcon {
+        position: absolute;
+        right: 32px;
+        bottom: 32px;
+        width: 64px;
+        height: 64px;
+    }
+}
+
+
+@media (max-width:1000px) {
+
+
+    .infoCards {
+        width: 750px;
+        height: 400px;
+        position: relative;
+    }
+
+    .infoCard {
+        width: 240px;
+        height: 175px;
+        position: relative;
+        background-color: white;
+        box-shadow: rgba(207, 229, 255, 0.149) 0px 15px 10px -3px, #89a1bc3d 0px 4px 6px -2px;
+        border-radius: 8px;
+        padding: 16px;
+    }
+
+    .topMiddle {
+        left: 50%;
+        position: absolute;
+
+        transform: translateX(-50%);
+        top: 0;
+    }
+
+    .bottomMiddle {
+        bottom: 0;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .leftMiddle {
+        top: 50%;
+        position: absolute;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .rightMiddle {
+        top: 50%;
+        position: absolute;
+        right: 0;
+        transform: translateY(-50%);
+    }
+
+
+    .infoCardTopRectangle {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 240px;
+        height: 4px;
+    }
+
+    .blueRectangle {
+        background: #377FD2;
+    }
+
+    .redRectangle {
+        background-color: #FF637B;
+    }
+
+    .greenRectangle {
+        background-color: #00C8C8;
+    }
+
+    .orangeRectangle {
+        background-color: #FCAE4A;
+    }
+
+    .infoCardTitle {
+        font-size: 16px;
+        color: #4D4F62;
+        margin-bottom: 6px;
+    }
+
+    .infoCardDesc {
+        font-size: 12px;
+        color: #4D4F62;
+        font-weight: 200;
+    }
+
+    .infoCardIcon {
+        position: absolute;
+        right: 16px;
+        bottom: 16px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .fourCard {
+
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 80px;
+
+    }
+
+    .infoCards {
+        width: 375px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+
+
+
+
+
+    .topMiddle {
+        all: unset;
+    }
+
+    .bottomMiddle {
+        all: unset;
+
+    }
+
+    .leftMiddle {
+        all: unset;
+
+    }
+
+    .rightMiddle {
+        all: unset;
+
+    }
+
+    .infoCard {
+        width: 325px;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: rgba(207, 229, 255, 0.149) 0px 15px 10px -3px, #89a1bc3d 0px 4px 6px -2px;
+        border-radius: 8px;
+        padding: 28px;
+        position: relative ;
+    }
+
+
+
+
+    .infoCardTopRectangle {
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 325px;
+        height: 4px;
+    }
+
+
+    .infoCardTitle {
+
+
+        font-size: 20px;
+        color: #4D4F62;
+        margin-bottom: 6px;
+    }
+
+    .infoCardDesc {
+
+        font-size: 13px;
+        color: #4D4F62;
+        font-weight: 200;
+    }
+
+    .infoCardIcon {
+
+        position: absolute;
+        right: 28px;
+        bottom: 28px;
+        width: 55px;
+        height: 55px;
+    }
+
+
+
+
+}
